@@ -1,0 +1,19 @@
+public class with {
+	public static void main(String[] args) {
+		int[] vector = {1,6,3,2,5};
+		int[] vector2 = {1,6,3,2,6};
+		int Numeroabuscar = 2;
+		// he creado otro int para crear otra variable llamada numero a buscar
+		for (int i = 0;i<vector.length;i++) {
+			System.out.println(vector[i]+" "+vector2[i]);
+			if (vector[i] != vector2[i]) {
+				System.out.println("no son iguales en la posicion "+ i);
+				break;
+				//el break pa romper el bucle
+			}
+		}
+	
+		
+	}
+	
+}
